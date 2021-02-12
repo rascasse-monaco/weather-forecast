@@ -1,0 +1,8 @@
+{
+  "name": "Weather-Forecast",
+  "description": "Weather Forecast Application",
+  "repository": "https://github.com/rascasse-monaco/weather-forecast",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}

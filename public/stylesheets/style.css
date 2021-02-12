@@ -1,8 +1,177 @@
+@charset "UTF-8";
+
+html {
+    font-size: 16px;
+}
+html, body {
+    height: 100%;
+}
+body *, ::before, ::after {
+    box-sizing: border-box;
+}
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    margin: 0;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    color: #000;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px;
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+}
+header {
+    background-color: #1aaedb;
+    border-bottom: #ead963 6px solid;
+}
+header .container {
+    min-height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 76px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-size: 53px;
+    background-position: 16px 10px;
+}
+@media (min-width: 768px) {
+    header .container {
+        min-height: 100px;
+        padding-left: 120px;
+        background-size: 80px;
+        background-position: 30px 20px;
+    }
+}
+header .container h1,
+header .container h2 {
+    margin: 0;
+    color: #fff;
+    line-height: 1;
+}
+header .container h1 {
+    padding: 15px 0 4px 0;
+    border-bottom: 1px dotted #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+header .container h2 {
+    padding: 5px 0 0 0;
+    font-size: 10px;
+    font-weight: 400;
+}
+@media (min-width: 768px) {
+    header .container h1 {
+        padding: 30px 0 5px 0;
+        font-size: 24px;
+    }
+    header .container h2 {
+        padding: 6px 0 0 0;
+        font-size: 14px;
+    }
+}
+main {
+    min-height: calc(100% - 156px);
+}
+main .container {
+    margin: 0 auto;
+    background-color: #fff;
+}
+footer {
+    background-color: #1aaedb;
+}
+footer .container {
+    min-height: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+}
+@media (min-width: 768px) {
+    footer .container {
+        min-height: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+footer .container p {
+    margin: 0;
+}
+a {
+    color: #ed8a29;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffb974;
+    text-decoration: underline;
 }
 
-a {
-  color: #00B7FF;
+main .container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+#place {
+    text-align: center;
+}
+#now {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    min-height: 400px;
+}
+#now .icon img {
+    width: 400px;
+}
+#now .info p {
+    text-align: center;
+}
+#now .temp {
+    margin-left: 1rem;
+    padding-left: 24px;
+    background: url(../images/thermometer.svg) 0 0 no-repeat;
+    background-size: 24px 24px;
+}
+#forecast {
+    border-collapse: collapse;
+    margin: 2rem auto 0;
+    width: 400px;
+}
+#forecast th, #forecast td {
+    border-top: 1px solid #ccc;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#forecast tr td:first-of-type {
+    border-left: 1px solid #ccc;
+}
+#forecast tr td:last-of-type {
+    border-right: 1px solid #ccc;
+    text-align: right;
+}
+#forecast tr:last-of-type {
+    border-bottom: 1px solid #ccc;
+}
+#forecast .icon {
+    width: 48px;
+}
+#forecast .icon img {
+    width: 48px;
+    height: 48px;
+}
+#forecast .info p {
+    margin: 0;
+}
+#forecast .temp {
+    margin-left: 1rem;
+    padding-left: 24px;
+    background: url(../images/thermometer.svg) 0 0 no-repeat;
+    background-size: 24px 24px;   
 }
