@@ -47,7 +47,7 @@ function ajaxRequest(lat, long) {
       }
       const iconPath = `../images/${forecast.weather[0].icon}.svg`;
 
-      console.log('日時: ' + `${displays.month}/${displays.date} ${displays.hours}:${displays.n}//`);
+      console.log('日時: ' + `${displays.month}/${displays.date} ${displays.hours}:${displays.min}`);
       console.log('気温: ' + displays.temperature);
       console.log('天気: ' + displays.description);
       console.log('画像パス: ' + iconPath);
