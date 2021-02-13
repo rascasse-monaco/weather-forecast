@@ -137,7 +137,7 @@ function ajaxRequest(lat, long) {
         description: forecast.weather[0].description
       };
       var iconPath = "../images/".concat(forecast.weather[0].icon, ".svg");
-      console.log('日時: ' + "".concat(displays.month, "/").concat(displays.date, " ").concat(displays.hours, ":").concat(displays.n, "//"));
+      console.log('日時: ' + "".concat(displays.month, "/").concat(displays.date, " ").concat(displays.hours, ":").concat(displays.min));
       console.log('気温: ' + displays.temperature);
       console.log('天気: ' + displays.description);
       console.log('画像パス: ' + iconPath);
