@@ -120,6 +120,7 @@ main .container {
 }
 #place {
     text-align: center;
+    font-weight: 400px;
 }
 #now {
     margin: 0 auto;

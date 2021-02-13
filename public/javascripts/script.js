@@ -79,7 +79,7 @@ function ajaxRequest(lat, long) {
                 <span class="description">${displays.description}</span>
             </td>
             <td>
-                <span class="temp">${displays.temperature}</span>
+                <span class="temp">${displays.temperature}°C</span>
             </td>
           </tr>
         `);

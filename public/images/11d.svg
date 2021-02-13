@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:none;}.cls-3{fill:#ffb717;}</style></defs><title>11d</title><g id="レイヤー_2" data-name="レイヤー 2"><g id="outlined"><path class="cls-1" d="M160,91.5a28.44,28.44,0,0,0-14.67,4.06A49,49,0,0,0,51.57,80,35.28,35.28,0,0,0,46,79.5a34.5,34.5,0,0,0,0,69H160a28.5,28.5,0,0,0,0-57Z"/><rect class="cls-2" width="200" height="200"/><path class="cls-1" d="M159.5,92a28.42,28.42,0,0,0-14.67,4.06A49,49,0,0,0,51.06,80.45,35.06,35.06,0,0,0,45.5,80a34.5,34.5,0,0,0,0,69h114a28.5,28.5,0,0,0,0-57Z"/><polygon points="131.07 128.07 108.31 128.07 124.06 100.48 91.29 100.48 72.83 137.41 88.99 137.41 67.93 187.53 131.07 128.07"/><path d="M159.5,86a34.46,34.46,0,0,0-10,1.47,55,55,0,0,0-102-13.42c-.67,0-1.33,0-2,0a40.5,40.5,0,0,0,0,81H75.09L80,143.41H63.12l.21-.41H45.5a28.5,28.5,0,1,1,4.6-56.62l4.6.74,1.87-4.27a43,43,0,0,1,82.28,13.69l.77,9.66,8.3-5A22.5,22.5,0,1,1,159.5,143H124l-12.74,12H159.5a34.5,34.5,0,0,0,0-69Z"/><polygon class="cls-3" points="131.07 128.07 108.31 128.07 124.06 100.48 91.29 100.48 72.83 137.41 88.99 137.41 67.93 187.53 131.07 128.07"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;stroke:#C8C8C8;stroke-width:12;stroke-miterlimit:10;}
+	.st2{fill:#C8C8C8;stroke:#FFFFFF;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#C8C8C8;}
+</style>
+<g id="レイヤー_2_1_">
+	<g id="outlined">
+		<rect class="st0" width="200" height="200"/>
+	</g>
+</g>
+<g>
+	<path class="st1" d="M161.5,68.1c-3.1-12.6-14.7-22-28.6-22h-9.7c-3.6,0-7,0.6-10.2,1.8c-5.7-12.9-18.9-22-34.2-22H63.6
+		c-20.4,0-37.2,16.2-37.2,36.1l0,0c0,3.1,0.4,6.2,1.2,9.1c-9.5,4.7-16,14.2-16,25.2l0,0c0,15.5,13.1,28.3,29.1,28.3h118.5
+		c16,0,29.1-12.7,29.1-28.3l0,0C188.3,81.5,176.4,69.3,161.5,68.1z"/>
+</g>
+<polygon class="st2" points="128.2,133.4 105.5,133.4 111.3,105.8 70,142.8 86.2,142.8 65.1,192.9 "/>
+<polygon class="st3" points="128.2,133.4 105.5,133.4 111.3,105.8 70,142.8 86.2,142.8 65.1,192.9 "/>
+</svg>
